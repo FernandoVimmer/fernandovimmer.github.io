@@ -15,12 +15,31 @@
 
 <style type="text/css">
 
-.bordaimg{
-	border: 2px solid;
-}	
+body{
+  background-size: 200%;
+}
 
 ul{
 	width: 400px; margin: 0 auto;
+}
+
+img{
+  float: left;
+  margin: 10px;
+}
+
+.bordaimg{
+  border: 2px solid;
+} 
+
+.bloco{
+    display: block;
+    background: blue;
+    color: #FFF;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid #000;
+    text-align: left;
 }
 
 .barra {
@@ -32,10 +51,11 @@ ul{
   height: 45px;
   text-align: right;
   padding: 15px;
+  border-radius: 15px;
 }
 
 .alinhar-menu{
-	padding-right: 80px;
+	padding-right: 50px;
 	font-size: 15px;
 }
 
@@ -45,51 +65,40 @@ ul{
  
 </head>
  
-<body>
+<body background="https://raw.githubusercontent.com/FernandoVimmer/fernandovimmer.github.io/master/Imagens/tela-fundo.jpg">
 	
 <div class="container">
 
 	<div class="barra">
 		<div class="alinhar-menu">
-			<a style="color: white;" href="">Home</a>
-			<a style="margin: 0 25px; color: white;"href="">Contato</a>
-			<a style="color: white;" href="">Projetos</a>
+			<a style="color: white;" href="http://fernandovimmer.github.io">Home</a>
+			<a style="color: white; margin: 25px;"href="contato.html">Contato</a>
+			<a style="color: white; margin: 25px;" href="projetos.html">Projetos</a>
+      <a style="color: white;" href="experiencias_profissionais.html">Experiências Profissionais</a>
 			
 		</div>
 
 	</div>
 <br>
 <br>
-
- <h1> Portfólio de Projetos</h1>
+ <h1> Portfólio Pessoal</h1>
  <br>
  <br>
  <h3>Fernando Augusto Vimmer</h3>
- <hr>
+<hr>
  <div align="center">
-  <h3><strong>Apresentação pessoal:</strong></h3>
+  <h3 class="bloco"><strong>Apresentação pessoal:</strong></h3>
   <img class="bordaimg" src="https://raw.githubusercontent.com/FernandoVimmer/fernandovimmer.github.io/master/Imagens/Capturar.PNG" width="150">
   <br>
   <br>
-  <h4>Sou Fernando Augusto Vimmer, tenho 24 anos e atualmente estou cursando o terceiro período de Análise e Desenvolvimento de sistemas na Uniandrade.</h4>
+  <h4>Sou Fernando Augusto Vimmer, natural de Curitiba, tenho 24 anos e atualmente estou cursando o terceiro período de Análise e Desenvolvimento de sistemas na instituição Uniandrade. Desenvolvi este portfólio com o intuito de divulgar os trabalhos acadêmicos que estou desenvolvendo e informações e experiências profissionais.</h4>
  </div>
+ <br>
+ <br>
  <div align="center">
- 	<h3><strong>Redes Sociais:</strong></h3>
-  <img class="bordaimg" src="https://raw.githubusercontent.com/FernandoVimmer/fernandovimmer.github.io/master/Imagens/redes-sociais.png" width="300">
   <br>
-  <br>   
-  <h4>Facebook
-  	<br>
-  	  Whatsapp
-  	 <br>
-  	  LinkedIn 
-  </h4>
- </div>
- <div align="center">
-  <img src="" width="200">
   <br>
-  <br> 
-  <h3><strong>Projetos:</strong></h3>
+  <h3 class="bloco"><strong>Projetos:</strong></h3>
   <br>
   <h4>Batalha Naval</h4>
   <ul type="disc" align="left">
@@ -103,7 +112,7 @@ ul{
   <br>
   <h4>Projeto Voto Consciente</h4>
   <ul type="disc" align="left">
-				<li>Documentado toda a parte técnica do aplicatico</li>
+				<li>Documentado toda a parte técnica do aplicativo</li>
 				<li>Documentado análise de plano de negócios</li>
 				<li>Apresentação final para os professores</li><br>
 			</ul>
